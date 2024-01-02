@@ -1,0 +1,8 @@
+version: "3.6"
+
+services:
+  pi:
+    image: pi:bday7
+    build:
+      context: .
+      dockerfile: ./docker/web/Dockerfile
